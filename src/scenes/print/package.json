@@ -1,0 +1,19 @@
+{
+  "name": "wavebox-scenes-print",
+  "author": "opensource@wavebox.io",
+  "license": "MPL-2.0",
+  "repository": "https://github.com/wavebox/waveboxapp",
+  "description": "Printer UI for Wavebox",
+  "dependencies": {
+    "pdfjs-dist": "2.0.489",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "standard": "11.0.1",
+    "babel-eslint": "8.2.6",
+    "babel-plugin-transform-class-properties": "6.24.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
