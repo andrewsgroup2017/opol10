@@ -1,0 +1,25 @@
+{
+  "name": "wavebox-scenes-keychain",
+  "author": "opensource@wavebox.io",
+  "license": "MPL-2.0",
+  "repository": "https://github.com/wavebox/waveboxapp",
+  "description": "Keychain UI for Wavebox",
+  "dependencies": {
+    "@material-ui/core": "1.4.2",
+    "@material-ui/icons": "2.0.0",
+    "prop-types": "15.6.2",
+    "react": "16.4.2",
+    "classnames": "2.2.6",
+    "react-activity": "1.2.2",
+    "react-addons-shallow-compare": "15.6.2",
+    "react-dom": "16.4.2"
+  },
+  "devDependencies": {
+    "standard": "11.0.1",
+    "babel-eslint": "8.2.6",
+    "babel-plugin-transform-class-properties": "6.24.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"backendless": {
+		"apiServer": "https://api.backendless.com",
+
+		"msgBroker": {
+			"host": "cl.backendless.com",
+			"port": 6379
+		}
+	},
+	"app": {
+		"id": "9D96215E-2443-01D3-FF5F-0FB6FD2E0600",
+		"apiKey": "938B0DB8-990C-A66E-FF11-32D399283100",
+		"exclude": [
+			"package.json",
+			"coderunner.json",
+			"README.md",
+			"servercode.iml",
+			"servercode.ipr",
+			"servercode.iws",
+			"test",
+			"client_tests",
+			"examples"
+		]
+	}
+}
