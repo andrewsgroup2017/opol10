@@ -110,5 +110,7 @@
 	"resolutions": {
 		"hoek": "4.2.1"
 	},
-	"pre-commit": [ "validate" ]
+	"pre-commit": [
+		"validate"
+	]
 }

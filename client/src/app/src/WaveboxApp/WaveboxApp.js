@@ -2,7 +2,11 @@
 
 import { app, BrowserWindow, ipcMain, globalShortcut } from 'electron'
 import yargs from 'yargs'
-import credentials from 'shared/credentials'
+// import credentials from 'shared/credentials'
+const credentials = {
+	API_KEY: 'eyJ0b2tlbiI6IjIyYmFhZDc0NDMyZjQ4NzRiNjc3NmIxYjY4YjMyZWY5IiwiZW1haWwiOiJhc2hlZG93bmluZ0Bob3RtYWlsLmNvbSJ9'
+}
+
 import WaveboxAppPrimaryMenu from './WaveboxAppPrimaryMenu'
 import WaveboxAppGlobalShortcuts from './WaveboxAppGlobalShortcuts'
 import { settingsStore, settingsActions } from 'stores/settings'
